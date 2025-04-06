@@ -8,10 +8,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={
-          <div className="grid grid-cols-[auto_1fr] min-h-screen">
-            <main className="relative">
-              <Home />
-            </main>
+          <div className="min-h-screen">
+            <Home />
           </div>
         } />
         <Route path="/GuessRGB" element={<GuessRGB />} />
